@@ -1,0 +1,199 @@
+
+/* ===== GLOBAL ===== */
+body {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    background: linear-gradient(135deg, #fde2e4, #e8f0fe);
+    color: #333;
+    margin: 0;
+    padding: 30px;
+}
+
+/* ===== HEADINGS ===== */
+h2 {
+    text-align: center;
+    font-size: 34px;
+    color: #2f5d62;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+/* ===== TABLE CONTAINER ===== */
+table {
+    border-collapse: collapse;
+    width: 95%;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
+
+/* ===== TABLE HEADERS ===== */
+th {
+    background-color: #b8e0d2; /* pastel teal */
+    color: #1f3d3f;
+    padding: 14px;
+    font-size: 15px;
+    text-align: center;
+}
+
+/* ===== TABLE DATA ===== */
+td {
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+    border-bottom: 1px solid #eee;
+}
+
+/* ===== ROW HOVER EFFECT ===== */
+tr:hover {
+    background-color: #f7fdfa;
+}
+
+/* ===== ALTERNATE ROW COLOR ===== */
+tr:nth-child(even) {
+    background-color: #fdf6f0; /* pastel peach */
+}
+
+/* ===== IMAGES ===== */
+img {
+    width: 90px;
+    border-radius: 8px;
+    border: 2px solid #e0e0e0;
+}
+
+/* ===== MOBILE RESPONSIVENESS ===== */
+@media (max-width: 768px) {
+    table {
+        font-size: 12px;
+    }
+
+    img {
+        width: 70px;
+    }
+}
+.form-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+form {
+    background: linear-gradient(135deg, #fdeff9, #ecf3ff);
+    padding: 45px 50px;              /* more breathing space */
+    border-radius: 18px;
+    width: 100%;
+    max-width: 720px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+}
+
+/* Heading */
+form h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #333;
+    margin-bottom: 35px;
+    letter-spacing: 0.5px;
+}
+
+/* Labels */
+label {
+    display: block;
+    margin-top: 22px;               /* IMPORTANT spacing */
+    margin-bottom: 6px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #444;
+}
+
+/* Inputs */
+input[type="text"],
+input[type="file"] {
+    width: 100%;
+    padding: 12px 14px;
+    font-size: 14px;
+    border-radius: 10px;
+    border: 1px solid #cfcfcf;
+    background: #e0dbf5;
+}
+
+/* File input spacing fix */
+input[type="file"] {
+    padding: 9px;
+}
+
+/* Submit button */
+input[type="submit"] {
+    width: 100%;
+    margin-top: 35px;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 14px;
+    border: none;
+    background: #6c63ff;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background: #5548e8;
+}
+
+input[type="text"]:focus,
+input[type="file"]:focus {
+    outline: none;
+    border-color: #b8b3e6;
+    box-shadow: 0 0 0 2px rgba(184,179,230,0.25);
+}
+
+/* Success Page */
+.success-page {
+    background: #ffe9dc; /* same peach family */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.success-box {
+    background: #fff6f0; /* very light warm pastel */
+    padding: 40px 50px;
+    border-radius: 14px;
+    text-align: center;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.success-box h1 {
+    color: #2e7d32; /* calm green */
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.success-box p {
+    color: #555;
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.success-btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 22px;
+    margin: 5px;
+    border-radius: 6px;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+}
+
+.success-btn.outline {
+    background: transparent;
+    color: #4CAF50;
+    border: 2px solid #4CAF50;
+}
+
+.success-btn:hover {
+    opacity: 0.9;
+}
