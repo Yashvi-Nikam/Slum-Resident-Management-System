@@ -1,30 +1,26 @@
 # Slum Resident Management System 
 
-The Slum Resident Management System is a PHP and MySQL based web application developed for academic purposes.  
-It allows structured collection, storage, and viewing of basic resident information through a web form and an admin panel.
-
-The project demonstrates form handling, file uploads, database integration, and record display using core web technologies.
-
----
-
-
-##  Features
-
-- Web form for collecting resident details
-- Stores the following information:
-  - Slum name and address
-  - Hut number
-  - Owner and spouse names
-  - Aadhaar numbers (masked during display)
-  - Photo and fingerprint uploads
-- Admin panel to view stored records
-- Aadhaar masking to reduce exposure of sensitive data
-- Simple and readable user interface
+Slum Resident Management is a web application built using PHP and MySQL, for academic purposes.
+It allows structured collection, storage, and viewing of basic resident information via a web form and admin panel.
+The project will demonstrate a basic form handling, file uploading, database interaction, and display using basic web technologies.
 
 ---
 
+## Features:
 
-##  Screenshots
+### 1. Web Form for Gathering Resident Details
+### 2. Stores the following information:
+    Slum Name and Address
+    Hut number
+    Owner and Spouse Names
+    Aadhaar numbers (masked during display)
+    Photo and Fingerprint Uploads
+    
+### 3. Admin Panel - View Saved Records
+### 4. Aadhaar masking to reduce the exposure of sensitive information
+### 5. Simple readable interface
+---
+## Screenshots
 
 ### 1. Resident Information Form
 ![Form Page](screenshots/form_page.png)
@@ -40,28 +36,23 @@ The project demonstrates form handling, file uploads, database integration, and 
 
 ---
 
+## Privacy and Data Handling Notes:
 
-## Privacy and Data Handling Notes
-
-- Aadhaar numbers are masked in the admin panel and all screenshots.
-- Uploaded photos and fingerprints are sample or dummy images.
-- No authentication or authorization mechanism is implemented in this version.
-- Records are view-only from the application; editing and deletion are done directly in the database.
-- This project is intended strictly for academic and learning purposes and is not suitable for real-world deployment.
-
----
-
-
-## Limitations
-
-- No login or role-based access control
-- Admin panel is publicly accessible if the URL is known
-- No encryption for uploaded files
-- No validation against duplicate or incorrect entries
-- Requires a local server environment
+The Aadhaar numbers are masked in the admin panel and all screenshots.
+Uploaded photos and prints are just samples or dummy images.
+No authentication and/or authorization is applied in this version.
+The records will be view-only within the application, modifications and deletions will be done directly in the database.
+This project is for academic and learning purposes only and cannot be used in real-world applications.
 
 ---
 
+##Limitations
+
+No need for login or role-based access control
+Admin panel is publicly accessible if the URL is known.
+No encryption provided for upload files No validation of duplicate or incorrect data Requires a local server environment
+
+---
 
 ##  Technologies Used
 
@@ -76,12 +67,11 @@ The project demonstrates form handling, file uploads, database integration, and 
 
 ##  Installation & Setup
 
-Follow these steps to run the project locally:
-
-1. Install **XAMPP** or **WAMP**
-2. Start **Apache** and **MySQL**
+Follow these steps to run the project locally
+1. Install XAMPP or WAMP
+2. Start Apache and MySQL
 3. Copy the project folder into:   htdocs/ (XAMPP)
-4. Open **phpMyAdmin**
+4. Open phpMyAdmin
 5. Create a database named:   slum_project_db
 6. Import the file:  database.sql
 7. Update database credentials in:  db_connect.php
@@ -92,7 +82,7 @@ Follow these steps to run the project locally:
 
 ##  Live Deployment
 
-This project is **not deployed live** because:
+This project is not deployed live because:
 - GitHub Pages does not support PHP
 - The application requires a local server and database
 
