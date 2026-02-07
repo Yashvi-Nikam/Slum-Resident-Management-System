@@ -8,17 +8,17 @@ The project will demonstrate a basic form handling, file uploading, database int
 
 ## Features:
 
-### 1. Web Form for Gathering Resident Details
-### 2. Stores the following information:
-    Slum Name and Address
-    Hut number
-    Owner and Spouse Names
-    Aadhaar numbers (masked during display)
-    Photo and Fingerprint Uploads
+ 1. Web Form for Gathering Resident Details
+ 2. Stores the following information:
+  -  Slum Name and Address
+  - Hut number
+  - Owner and Spouse Names
+  - Aadhaar numbers (masked during display)
+  - Photo and Fingerprint Uploads
     
-### 3. Admin Panel - View Saved Records
-### 4. Aadhaar masking to reduce the exposure of sensitive information
-### 5. Simple readable interface
+ 3. Admin Panel - View Saved Records
+ 4. Aadhaar masking to reduce the exposure of sensitive information
+ 5. Simple readable interface
 ---
 ## Screenshots
 
@@ -46,7 +46,7 @@ This project is for academic and learning purposes only and cannot be used in re
 
 ---
 
-##Limitations
+## Limitations
 
 No need for login or role-based access control
 Admin panel is publicly accessible if the URL is known.
