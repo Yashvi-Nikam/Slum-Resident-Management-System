@@ -1,24 +1,28 @@
 # Slum Resident Management System 
 
-A PHP & MySQL based web application designed to collect, store, and view slum resident information in a structured and secure manner.  
-This project was developed for academic purposes to demonstrate form handling, file uploads, database storage, and admin-based record viewing.
+The Slum Resident Management System is a PHP and MySQL based web application developed for academic purposes.  
+It allows structured collection, storage, and viewing of basic resident information through a web form and an admin panel.
+
+The project demonstrates form handling, file uploads, database integration, and record display using core web technologies.
 
 ---
+
 
 ##  Features
 
-- Resident data collection through a clean web form
-- Stores details such as:
-  - Slum name & address
+- Web form for collecting resident details
+- Stores the following information:
+  - Slum name and address
   - Hut number
-  - Owner & spouse names
-  - Aadhaar numbers (masked in display)
-  - Photo & fingerprint uploads
+  - Owner and spouse names
+  - Aadhaar numbers (masked during display)
+  - Photo and fingerprint uploads
 - Admin panel to view stored records
-- Aadhaar masking for privacy protection
-- Simple and user-friendly UI
+- Aadhaar masking to reduce exposure of sensitive data
+- Simple and readable user interface
 
 ---
+
 
 ##  Screenshots
 
@@ -36,24 +40,28 @@ This project was developed for academic purposes to demonstrate form handling, f
 
 ---
 
-##  Privacy & Security Notes
 
-- Aadhaar numbers are **masked** in both the admin panel and screenshots.
-- Uploaded photos and fingerprints are **sample/demo images only**.
-- No authentication system is implemented in this version.
-- This project is intended **strictly for academic and learning purposes**, not for real-world deployment.
+## Privacy and Data Handling Notes
+
+- Aadhaar numbers are masked in the admin panel and all screenshots.
+- Uploaded photos and fingerprints are sample or dummy images.
+- No authentication or authorization mechanism is implemented in this version.
+- Records are view-only from the application; editing and deletion are done directly in the database.
+- This project is intended strictly for academic and learning purposes and is not suitable for real-world deployment.
 
 ---
 
-##  Limitations
 
-- No user authentication or role-based access
-- Admin page is not protected by login
-- Data editing/deletion is done directly via the database
+## Limitations
+
+- No login or role-based access control
+- Admin panel is publicly accessible if the URL is known
 - No encryption for uploaded files
-- Not deployed live (PHP requires a server environment)
+- No validation against duplicate or incorrect entries
+- Requires a local server environment
 
 ---
+
 
 ##  Technologies Used
 
@@ -64,6 +72,7 @@ This project was developed for academic purposes to demonstrate form handling, f
 - XAMPP (Apache & phpMyAdmin)
 
 ---
+
 
 ##  Installation & Setup
 
@@ -78,8 +87,8 @@ Follow these steps to run the project locally:
 7. Update database credentials in:  db_connect.php
 8. Open browser and visit:  http://localhost/slum_project/index.php
 
-
 ---
+
 
 ##  Live Deployment
 
