@@ -1,11 +1,11 @@
-# Slum Resident Management System 🏘️
+# Slum Resident Management System 
 
 A PHP & MySQL based web application designed to collect, store, and view slum resident information in a structured and secure manner.  
 This project was developed for academic purposes to demonstrate form handling, file uploads, database storage, and admin-based record viewing.
 
 ---
 
-## 📌 Features
+##  Features
 
 - Resident data collection through a clean web form
 - Stores details such as:
@@ -20,7 +20,7 @@ This project was developed for academic purposes to demonstrate form handling, f
 
 ---
 
-## 🖼️ Screenshots
+##  Screenshots
 
 ### 1. Resident Information Form
 ![Form Page](screenshots/form_page.png)
@@ -36,7 +36,7 @@ This project was developed for academic purposes to demonstrate form handling, f
 
 ---
 
-## 🔐 Privacy & Security Notes
+##  Privacy & Security Notes
 
 - Aadhaar numbers are **masked** in both the admin panel and screenshots.
 - Uploaded photos and fingerprints are **sample/demo images only**.
@@ -45,7 +45,7 @@ This project was developed for academic purposes to demonstrate form handling, f
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
 - No user authentication or role-based access
 - Admin page is not protected by login
@@ -55,17 +55,17 @@ This project was developed for academic purposes to demonstrate form handling, f
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - PHP
 - MySQL
-- HTML5
-- CSS3
+- HTML
+- CSS
 - XAMPP (Apache & phpMyAdmin)
 
 ---
 
-## 🚀 Installation & Setup
+##  Installation & Setup
 
 Follow these steps to run the project locally:
 
@@ -81,7 +81,7 @@ Follow these steps to run the project locally:
 
 ---
 
-## 🌐 Live Deployment
+##  Live Deployment
 
 This project is **not deployed live** because:
 - GitHub Pages does not support PHP
@@ -89,7 +89,6 @@ This project is **not deployed live** because:
 
 ---
 
-## 📄 License
 
 This project is created for educational purposes only.
 
